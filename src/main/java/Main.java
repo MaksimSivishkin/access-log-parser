@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int att=0; // Накопитель количество верно указанных путей
+        int att=0; // Накопитель количество верно указанных путей.
         while(true){ // Бесконечный цикл, запрашивает путь к файлу. Если путь не верный - цикл повторяется
             System.out.println("Укажите путь к файлу: ");
             String path = new Scanner(System.in).nextLine();
